@@ -12,6 +12,7 @@ body {
   color: #333;
   text-align: center;
   padding: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Main heading */
@@ -35,12 +36,13 @@ h1 {
   text-decoration: none;
   background-color: #e44d26;
   color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 12px 24px;
+  border-radius: 8px;
   display: inline-block;
-  transition: background 0.3s;
+  transition: background 0.3s, box-shadow 0.3s;
 }
 
 .recipe-links a:hover {
   background-color: #d43f1d;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
