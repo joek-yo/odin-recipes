@@ -1,0 +1,46 @@
+/* Reset default margin and padding */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main heading */
+h1 {
+  font-size: 2.5rem;
+  color: #e44d26;
+  margin-bottom: 20px;
+}
+
+/* Recipe links */
+.recipe-links {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-links li {
+  margin: 10px 0;
+}
+
+.recipe-links a {
+  text-decoration: none;
+  background-color: #e44d26;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.recipe-links a:hover {
+  background-color: #d43f1d;
+}
