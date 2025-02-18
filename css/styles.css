@@ -87,3 +87,38 @@ h1 {
 .back-button:hover {
   background: #d43f1d;
 }
+
+.recipes-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-links {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-links li {
+  margin: 15px 0;
+}
+
+.recipe-links a {
+  display: block;
+  text-decoration: none;
+  background: #e44d26;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.recipe-links a:hover {
+  background: #d43f1d;
+  transform: scale(1.05);
+}
